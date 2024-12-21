@@ -1,0 +1,38 @@
+* {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* NAV BAR STYLING */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.77);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  font-size: 20px;
+}
+
+.navbar a {
+  color: #f3d9f0;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  color: #5b52a8;
+}
+
+.navbar li {
+  float: left;
+}
