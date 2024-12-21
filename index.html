@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Christabel Johnson Portfolio</title>
   </head>
   <body>
-      <!--NAV BAR-->
+    <!--NAV BAR-->
     <nav class="navbar">
       <ul>
         <li><a href="#home">Home</a></li>
@@ -20,11 +20,30 @@
     <main>
       <!--HOME / HERO SECTION-->
       <section id="home">
-        <img src="profile for lp.png" alt="profile picture" />
-        <h1>Christabel Johnson</h1>
-        <p>Aspiring Tech Professional &middot; Web Developer &middot; Designer</p>
-        <p>
-          <a href="other assets\CV Christabel Johnson.pdf" target="_blank">CV</a> | <a href="https://www.linkedin.com/in/christabel-johnson-0712b0255/" target="_blank">LinkedIn</a> | <a href="mailto: christabeljohnson33@gmail.com" target="_blank">Email</a> | <a href="https://github.com/christabel-j" target="_blank">GitHub</a>
+        <img
+          src="images\profile for lp.png"
+          alt="profile picture of Christabel"
+          class="profile-picture"
+        />
+        <h1 class="name">Christabel Johnson</h1>
+        <p class="bio">
+          Aspiring Tech Professional &middot; Web Developer &middot; Designer
+        </p>
+        <p class="bio-links">
+          <a href="other assets\CV Christabel Johnson.pdf" target="_blank"
+            >CV</a
+          >
+          |
+          <a
+            href="https://www.linkedin.com/in/christabel-johnson-0712b0255/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          |
+          <a href="mailto: christabeljohnson33@gmail.com" target="_blank"
+            >Email</a
+          >
+          | <a href="https://github.com/christabel-j" target="_blank">GitHub</a>
         </p>
       </section>
       <section id="about-me">
@@ -37,9 +56,15 @@
             ME
           </p>
         </div>
-        <h2>About Me</h2>
-        <p>
-          I’m an aspiring technology degree apprentice with an interest in data and software engineering. Currently on a gap year, I am exploring new skills and developing projects. Graphic design has been a passion of mine since primary school, and now I am expanding my technical capabilities. I have university offers from UCL, Kings College London, and more, but desiring a degree apprenticeship to launch my career and build a strong foundation in technology.
+        <h2 class="section-heading">About Me</h2>
+        <p class="about-text text-content">
+          I’m an aspiring technology degree apprentice with an interest in data
+          and software engineering. Currently on a gap year, I am exploring new
+          skills and developing projects. Graphic design has been a passion of
+          mine since primary school, and now I am expanding my technical
+          capabilities. I have university offers from UCL, Kings College London,
+          and more, but desiring a degree apprenticeship to launch my career and
+          build a strong foundation in technology.
         </p>
       </section>
       <!--PROJECTS SECTION-->
@@ -51,19 +76,28 @@
             &middot; PROJECTS &middot; PROJECTS &middot; PROJECTS &middot;
             PROJECTS
           </p>
-          <h2>Projects</h2>
         </div>
+        <h2 class="section-heading">Projects</h2>
         <div class="project-1">
           <h3>Get 100!</h3>
           <img src="images\thumbnail for get 100.png" />
-          <p>A competitive 2-player dice game where players race to reach 100 points, strategically balancing risk and reward—roll to accumulate points, hold to secure them, but risk losing progress if a 1 is rolled.</p>
+          <p class="project-text text-content">
+            A competitive 2-player dice game where players race to reach 100
+            points, strategically balancing risk and reward—roll to accumulate
+            points, hold to secure them, but risk losing progress if a 1 is
+            rolled.
+          </p>
           <!-- opens modal window for more details abt project-->
           <button class="btn--project-info">Learn more</button>
         </div>
         <div class="project-2">
           <h3>Number Guessing Game</h3>
           <img src="images\thumbnail for number guessing game.png" />
-          <p>A number guessing game where players attempt to identify the computer's secret number between 1 and 20, losing a point for each incorrect guess as they strive for the highest possible score of 20.</p>
+          <p class="project-text text-content">
+            A number guessing game where players attempt to identify the
+            computer's secret number between 1 and 20, losing a point for each
+            incorrect guess as they strive for the highest possible score of 20.
+          </p>
           <!--opens modal window for more details abt project-->
           <button class="btn--project-info">Learn more</button>
         </div>
@@ -74,45 +108,65 @@
         <div class="education-bar separator">
           <p>
             EDUCATION &middot; EDUCATION &middot; EDUCATION &middot; EDUCATION
-            &middot; EDUCATION &middot; EDUCATION &middot; EDUCATION &middot;
-            EDUCATION
+            &middot; EDUCATION &middot; EDUCATION &middot; EDUCATION
           </p>
-          <h2>Education</h2>
-          <h3>Brampton Manor Academy</h3>
-          <h4>A-Levels &middot; 2022 - 2024</h4>
-          <p>A*A*A in Mathematics, Chemistry and Biology (respectively)</p>
-          <h4>AS-Levels &middot; 2022 - 2023</h4>
-          <p>AAAA in Economics, Mathematics, Chemistry and Biology</p>
-          <h3>All Saints Catholic School and Technology College</h3>
-          <h4>GCSEs &middot; 2017-2022 </h4>
-          <p>10 GCSEs grade 9-8 including a 9 in Mathematics and 8 in English Language</p>
+        </div>
+        <h2 class="section-heading">Education</h2>
+        <h3>Brampton Manor Academy</h3>
+        <h4>A-Levels &middot; 2022 - 2024</h4>
+        <p class="grades-text text-content">
+          A*A*A in Mathematics, Chemistry and Biology (respectively)
+        </p>
+        <h4>AS-Levels &middot; 2022 - 2023</h4>
+        <p class="grades-text text-content">
+          AAAA in Economics, Mathematics, Chemistry and Biology
+        </p>
+        <h3>All Saints Catholic School and Technology College</h3>
+        <h4>GCSEs &middot; 2017-2022</h4>
+        <p class="grades-text text-content">
+          10 GCSEs grade 9-8 including a 9 in Mathematics and 8 in English
+          Language
+        </p>
       </section>
       <!--EXPERIENCE SECTION-->
       <section id="experience">
         <div class="experience-bar separator">
           <p>
-            EXPERIENCE &middot; EXPERIENCE &middot; EXPERIENCE &middot; EXPERIENCE
-            &middot; EXPERIENCE &middot; EXPERIENCE &middot; EXPERIENCE &middot;
+            EXPERIENCE &middot; EXPERIENCE &middot; EXPERIENCE &middot;
+            EXPERIENCE &middot; EXPERIENCE &middot; EXPERIENCE &middot;
             EXPERIENCE
           </p>
-          <h2>Experience</h2>
-          <h3>(Upcoming) Accenture - Technology Social Impact Week</h3>
-          <h4>January 2025</h4>
-          <h3>Barclays - Virtual Developer</h3>
-          <h4>October 2024</h4>
-          <ul>
-            <li>Designed and implemented a database for a To-Do List app, featuring two interconnected tables: users and tasks.</li>
-            <li>Conducted research to determine the optimal database type, evaluating relational, NoSQL, and in-memory solutions, and
-              justified the selection of MySQL based on scalability and performance.</li>
-          </ul>
-          <h3>HSBC LIFT - Global Banking and Markets</h3>
-          <h4>July 2023 - July 2024</h4>
-          <ul>
-            <li>Gained in-depth exposure to the Global Banking & Markets division, developing an understanding of global economic
-              trends and industry-specific operations.</li>
-            <li>Co-led a team presentation on ESG in Technology, demonstrating collaboration, research, and communication skills to an
-              audience of students and professionals.</li>
-          </ul>
+        </div>
+        <h2 class="section-heading">Experience</h2>
+        <h3>(Upcoming) Accenture - Technology Social Impact Week</h3>
+        <h4>January 2025</h4>
+        <h3>Barclays - Virtual Developer</h3>
+        <h4>October 2024</h4>
+        <ul class="experience-text text-content">
+          <li>
+            Designed and implemented a database for a To-Do List app, featuring
+            two interconnected tables: users and tasks.
+          </li>
+          <li>
+            Conducted research to determine the optimal database type,
+            evaluating relational, NoSQL, and in-memory solutions, and justified
+            the selection of MySQL based on scalability and performance.
+          </li>
+        </ul>
+        <h3>HSBC LIFT - Global Banking and Markets</h3>
+        <h4>July 2023 - July 2024</h4>
+        <ul class="experience-text text-content">
+          <li>
+            Gained in-depth exposure to the Global Banking & Markets division,
+            developing an understanding of global economic trends and
+            industry-specific operations.
+          </li>
+          <li>
+            Co-led a team presentation on ESG in Technology, demonstrating
+            collaboration, research, and communication skills to an audience of
+            students and professionals.
+          </li>
+        </ul>
       </section>
     </main>
     <script src="script.js"></script>

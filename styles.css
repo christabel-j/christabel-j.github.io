@@ -1,3 +1,24 @@
+/* Importing custom fonts */
+@font-face {
+  font-family: "Concert-One";
+  src: url(Fonts/ConcertOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Cooper-Hewitt-Book";
+  src: url(Fonts/cooper-hewitt.book.otf);
+}
+
+@font-face {
+  font-family: "Commissioner";
+  src: url(Fonts/Commissioner-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Commissioner-Light";
+  src: url(Fonts/Commissioner-Light.ttf);
+}
+
 * {
   text-align: center;
   padding: 0;
@@ -35,4 +56,44 @@ nav {
 
 .navbar li {
   float: left;
+}
+
+/* landing page / hero section */
+/* fonts */
+h1 {
+  font-family: "Concert-One", sans-serif;
+  font-size: 3.8rem;
+}
+
+.bio {
+  font-family: "Cooper-Hewitt-Book", sans-serif;
+  font-size: 1.7rem;
+}
+
+.bio-links {
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.2rem;
+}
+
+nav {
+  font-family: "Cooper-Hewitt-Book", sans-serif;
+}
+
+.separator {
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.8rem;
+}
+
+.section-heading {
+  font-family: "Concert-One", sans-serif;
+}
+
+.text-content {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 100;
+}
+
+h3,
+h4 {
+  font-family: "Cooper-Hewitt-Book";
 }
