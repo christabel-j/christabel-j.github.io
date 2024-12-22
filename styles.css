@@ -63,16 +63,20 @@ nav {
 h1 {
   font-family: "Concert-One", sans-serif;
   font-size: 3.8rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .bio {
   font-family: "Cooper-Hewitt-Book", sans-serif;
   font-size: 1.7rem;
+  margin-bottom: 60px;
 }
 
 .bio-links {
   font-family: "Commissioner", sans-serif;
   font-size: 1.2rem;
+  margin-bottom: 9.5rem;
 }
 
 nav {
@@ -96,4 +100,8 @@ nav {
 h3,
 h4 {
   font-family: "Cooper-Hewitt-Book";
+}
+
+.profile-picture {
+  margin-top: 70px;
 }
