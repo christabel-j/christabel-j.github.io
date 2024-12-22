@@ -110,3 +110,13 @@ h4 {
   margin-top: 70px;
   margin-bottom: 27px;
 }
+
+.about-text {
+  margin: 0 55px;
+  font-size: 20px;
+}
+
+#about-text-2 {
+  margin-top: 10px;
+  padding-bottom: 18px;
+}
