@@ -191,6 +191,8 @@ h4 {
   transform: scale(0.95);
 }
 
+/* EDUCATION SECTION */
+
 .education-text {
   text-align: left;
   margin: 0 150px;
@@ -230,4 +232,23 @@ hr {
 
 .grades-text {
   font-size: 18px;
+}
+
+/* EXPERIENCE SECTION */
+.experience-bar {
+  padding: 10px 0;
+}
+
+.experience-role-company,
+.experience-text,
+.experience-date {
+  text-align: left;
+}
+
+.experience-title {
+  padding-bottom: 15px;
+}
+
+.experience-container {
+  margin: 0 150px;
 }
