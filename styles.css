@@ -163,7 +163,7 @@ h4 {
   font-size: 20px;
 }
 
-button {
+.btn--project-info {
   padding: 10px;
   margin: 30px;
   font-family: "Cooper-Hewitt-Book", sans-serif;
@@ -182,11 +182,52 @@ button {
   user-select: none;
 }
 
-button:hover {
+.btn--project-info:hover {
   background-color: #f2f2f2;
   box-shadow: 0px 0px 20px -18px;
 }
 
-button:active {
+.btn--project-info:active {
   transform: scale(0.95);
+}
+
+.education-text {
+  text-align: left;
+  margin: 0 150px;
+}
+
+.school-name {
+  font-size: 28px;
+  padding-bottom: 5px;
+}
+
+.qualification {
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+#a-levels {
+  padding-bottom: 18px;
+}
+
+hr {
+  width: 50%;
+  color: #f3d9f0;
+  margin: 20px auto;
+}
+
+.school-link,
+.school-link:visited,
+.school-link:hover,
+.school-link:active {
+  text-decoration: none;
+  color: black;
+}
+
+#gcses {
+  padding-bottom: 10px;
+}
+
+.grades-text {
+  font-size: 18px;
 }
