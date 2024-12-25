@@ -99,7 +99,8 @@ nav {
   font-size: 1.8rem;
   margin: 3.5rem 0;
   padding: 10px;
-  color: #f3d9f0;
+  color: #5b52a8;
+  background-color: rgba(0, 0, 0, 0.77);
 }
 
 .section-heading {
