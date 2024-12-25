@@ -198,12 +198,14 @@ h4 {
   margin: 0 150px;
 }
 
-.school-name {
+.school-name,
+.experience-role-company {
   font-size: 28px;
   padding-bottom: 5px;
 }
 
-.qualification {
+.qualification,
+.experience-date {
   margin-bottom: 6px;
   font-size: 20px;
 }
@@ -230,7 +232,8 @@ hr {
   padding-bottom: 10px;
 }
 
-.grades-text {
+.grades-text,
+.experience--list-item {
   font-size: 18px;
 }
 
@@ -251,4 +254,8 @@ hr {
 
 .experience-container {
   margin: 0 150px;
+}
+
+.experience--list-item {
+  padding-bottom: 10px;
 }
