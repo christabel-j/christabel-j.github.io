@@ -259,3 +259,7 @@ hr {
 .experience--list-item {
   padding-bottom: 10px;
 }
+
+.last-list-item {
+  margin-bottom: 40px;
+}
