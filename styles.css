@@ -80,12 +80,14 @@ h1 {
   font-family: "Cooper-Hewitt-Book", sans-serif;
   font-size: 1.7rem;
   margin-bottom: 60px;
+  color: white;
 }
 
 .bio-links {
   font-family: "Commissioner", sans-serif;
   font-size: 1.2rem;
   margin-bottom: 8.5rem;
+  color: white;
 }
 
 nav {
@@ -97,6 +99,7 @@ nav {
   font-size: 1.8rem;
   margin: 3.5rem 0;
   padding: 10px;
+  color: #f3d9f0;
 }
 
 .section-heading {
@@ -123,6 +126,7 @@ h4 {
 .about-text {
   margin: 0 55px;
   font-size: 20px;
+  color: white;
 }
 
 #about-text-2 {
@@ -170,6 +174,7 @@ h4 {
   padding-top: 20px;
   font-family: "Cooper-Hewitt-Book";
   font-size: 20px;
+  color: white;
 }
 
 .btn--project-info {
@@ -205,18 +210,21 @@ h4 {
 .education-text {
   text-align: left;
   margin: 0 150px;
+  color: white;
 }
 
 .school-name,
 .experience-role-company {
   font-size: 28px;
   padding-bottom: 5px;
+  color: white;
 }
 
 .qualification,
 .experience-date {
   margin-bottom: 6px;
   font-size: 20px;
+  color: white;
 }
 
 #a-levels {
@@ -234,7 +242,7 @@ hr {
 .school-link:hover,
 .school-link:active {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #gcses {
@@ -244,6 +252,7 @@ hr {
 .grades-text,
 .experience--list-item {
   font-size: 18px;
+  color: white;
 }
 
 /* EXPERIENCE SECTION */
@@ -255,6 +264,7 @@ hr {
 .experience-text,
 .experience-date {
   text-align: left;
+  color: white;
 }
 
 .experience-title {
@@ -267,6 +277,7 @@ hr {
 
 .experience--list-item {
   padding-bottom: 10px;
+  color: white;
 }
 
 .last-list-item {
