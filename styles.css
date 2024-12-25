@@ -25,6 +25,15 @@
   margin: 0;
 }
 
+/* background image */
+body {
+  background-image: url("Photoshop drafts/bg 4 site.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 /* NAV BAR STYLING */
 nav {
   position: sticky;
