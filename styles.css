@@ -1,22 +1,22 @@
 /* Importing custom fonts */
 @font-face {
-  font-family: "Concert-One";
-  src: url(Fonts/ConcertOne-Regular.ttf) format("truetype");
+  font-family: "Outfit-Med";
+  src: url(Fonts/Outfit-Medium.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Cooper-Hewitt-Book";
-  src: url(Fonts/cooper-hewitt.book.otf);
+  font-family: "Outfit-SemiBold";
+  src: url(Fonts/Outfit-Medium.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Commissioner";
-  src: url(Fonts/Commissioner-Medium.ttf);
+  font-family: "Outfit-Light";
+  src: url(Fonts/Outfit-Light.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Commissioner-Light";
-  src: url(Fonts/Commissioner-Light.ttf);
+  font-family: "Montserrat";
+  src: url(Fonts/Montserrat-Medium.ttf) format("truetype");
 }
 
 * {
@@ -25,9 +25,15 @@
   margin: 0;
 }
 
+:root {
+  --purple: #491290;
+  --grey: #4e4f53;
+  --background-colour-2: #f9f8ff;
+}
+
 /* background image */
 body {
-  background-image: url("Photoshop drafts/bg 4 site.jpg");
+  background-image: url("Photoshop drafts/bg 4 site new.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -43,7 +49,7 @@ nav {
 
 .navbar ul {
   list-style-type: none;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -69,20 +75,19 @@ nav {
 
 /* landing page / hero section */
 .name {
-  font-family: "Concert-One", sans-serif;
+  font-family: "Outfit-SemiBold", sans-serif;
   font-size: 3.8rem;
   margin-bottom: 20px;
   margin-top: 20px;
   /* -webkit-text-stroke: 0.01px #122690; */
   /* text-shadow: 0px 0px 8px rgba(18, 38, 144, 1); */
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#f3d9f0 53%, #897df2);
-  -webkit-background-clip: text;
-  color: #f3d9f0;
+  /* -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+  color: #fff;
 }
 
 .bio {
-  font-family: "Cooper-Hewitt-Book", sans-serif;
+  font-family: "Outfit-Light", sans-serif;
   font-size: 1.7rem;
   margin-bottom: 60px;
   color: white;
@@ -97,7 +102,7 @@ nav {
 }
 
 nav {
-  font-family: "Cooper-Hewitt-Book", sans-serif;
+  font-family: "Outfit-Med", sans-serif;
 }
 
 .section-heading {
@@ -107,7 +112,7 @@ nav {
 }
 
 .text-content {
-  font-family: "Commissioner", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
 }
 
