@@ -7,46 +7,48 @@
     <title>Christabel Johnson Portfolio</title>
   </head>
   <body>
-    <!--NAV BAR-->
-    <nav class="navbar">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about-me">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-      </ul>
-    </nav>
-    <main>
-      <!--HOME / HERO SECTION-->
+    <div class="hero">
+      <!--NAV BAR-->
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+      <main>
+        <!--HOME / HERO SECTION-->
       <section id="home">
-        <img
-          src="images\IMG_1906.jpg"
-          alt="profile picture of Christabel"
-          class="profile-picture"
-        />
-        <h1 class="name">Christabel Johnson</h1>
-        <p class="bio">
-          Aspiring Tech Professional &middot; Web Developer &middot; Designer
-        </p>
-        <p class="bio-links">
-          <a href="other assets\CV Christabel Johnson.pdf" target="_blank"
-            >CV</a
-          >
-          |
-          <a
-            href="https://www.linkedin.com/in/christabel-johnson-0712b0255/"
-            target="_blank"
-            >LinkedIn</a
-          >
-          |
-          <a href="mailto: christabeljohnson33@gmail.com" target="_blank"
-            >Email</a
-          >
-          | <a href="https://github.com/christabel-j" target="_blank">GitHub</a>
-        </p>
+          <img
+            src="images\IMG_1906.jpg"
+            alt="profile picture of Christabel"
+            class="profile-picture"
+          />
+          <h1 class="name">Christabel Johnson</h1>
+          <p class="bio">
+            Aspiring Tech Professional &middot; Web Developer &middot; Designer
+          </p>
+          <p class="bio-links">
+            <a href="other assets\CV Christabel Johnson.pdf" target="_blank"
+              >CV</a
+            >
+            |
+            <a
+              href="https://www.linkedin.com/in/christabel-johnson-0712b0255/"
+              target="_blank"
+              >LinkedIn</a
+            >
+            |
+            <a href="mailto: christabeljohnson33@gmail.com" target="_blank"
+              >Email</a
+            >
+            | <a href="https://github.com/christabel-j" target="_blank">GitHub</a>
+          </p>
       </section>
+    </div>
       <!--ABOUT SECTION-->
       <section id="about-me">
         <h2 class="section-heading">About Me</h2>
@@ -76,8 +78,6 @@
               points, hold to secure them, but risk losing progress if a 1 is
               rolled.
             </p>
-            <!-- opens modal window for more details abt project-->
-            <button class="btn--project-info">Learn more</button>
           </div>
           <div class="project-2 project-card">
             <h3 class="project-title">Number Guessing Game</h3>
@@ -91,11 +91,50 @@
               incorrect guess as they strive for the highest possible score of
               20.
             </p>
-            <!--opens modal window for more details abt project-->
-            <button class="btn--project-info">Learn more</button>
           </div>
         </div>
-        <p class="coming-soon text-content">More projects coming soon!</p>
+      </section>
+      <!--EXPERIENCE SECTION-->
+      <section id="experience">
+        <h2 class="section-heading experience-title">Experience</h2>
+        <div class="experience-container">
+          <h3 class="experience-role-company">
+            Accenture - Technology Social Impact Week (Upcoming)
+          </h3>
+          <h4 class="experience-date">January 2025</h4>
+          <h3 class="experience-role-company">Barclays - Virtual Developer</h3>
+          <h4 class="experience-date">October 2024</h4>
+          <ul class="experience-text text-content">
+            <li class="experience-text text-content experience--list-item">
+              Designed and implemented a database for a To-Do List app,
+              featuring two interconnected tables: users and tasks.
+            </li>
+            <li class="experience-text text-content experience--list-item">
+              Conducted research to determine the optimal database type,
+              evaluating relational, NoSQL, and in-memory solutions, and
+              justified the selection of MySQL based on scalability and
+              performance.
+            </li>
+          </ul>
+          <h3 class="experience-role-company">
+            HSBC LIFT - Global Banking and Markets
+          </h3>
+          <h4 class="experience-date">July 2023 - July 2024</h4>
+          <ul class="experience-text text-content">
+            <li class="experience-text text-content experience--list-item">
+              Gained in-depth exposure to the Global Banking & Markets division,
+              developing an understanding of global economic trends and
+              industry-specific operations.
+            </li>
+            <li
+              class="experience-text text-content experience--list-item last-list-item"
+            >
+              Co-led a team presentation on ESG in Technology, demonstrating
+              collaboration, research, and communication skills to an audience
+              of students and professionals.
+            </li>
+          </ul>
+        </div>
       </section>
       <!--EDUCATION SECTION-->
       <section id="education">
@@ -120,7 +159,6 @@
         <p class="grades-text text-content education-text">
           AAAA in Economics, Mathematics, Chemistry and Biology
         </p>
-        <hr />
         <h3 class="education-text school-name">
           <a
             href="https://www.allsaintsschool.co.uk/"
@@ -136,51 +174,14 @@
           Language
         </p>
       </section>
-      <!--EXPERIENCE SECTION-->
-      <section id="experience">
-        <h2 class="section-heading experience-title">Experience</h2>
-        <div class="experience-container">
-          <h3 class="experience-role-company">
-            Accenture - Technology Social Impact Week (Upcoming)
-          </h3>
-          <h4 class="experience-date">January 2025</h4>
-          <hr />
-          <h3 class="experience-role-company">Barclays - Virtual Developer</h3>
-          <h4 class="experience-date">October 2024</h4>
-          <ul class="experience-text text-content">
-            <li class="experience-text text-content experience--list-item">
-              Designed and implemented a database for a To-Do List app,
-              featuring two interconnected tables: users and tasks.
-            </li>
-            <li class="experience-text text-content experience--list-item">
-              Conducted research to determine the optimal database type,
-              evaluating relational, NoSQL, and in-memory solutions, and
-              justified the selection of MySQL based on scalability and
-              performance.
-            </li>
-          </ul>
-          <hr />
-          <h3 class="experience-role-company">
-            HSBC LIFT - Global Banking and Markets
-          </h3>
-          <h4 class="experience-date">July 2023 - July 2024</h4>
-          <ul class="experience-text text-content">
-            <li class="experience-text text-content experience--list-item">
-              Gained in-depth exposure to the Global Banking & Markets division,
-              developing an understanding of global economic trends and
-              industry-specific operations.
-            </li>
-            <li
-              class="experience-text text-content experience--list-item last-list-item"
-            >
-              Co-led a team presentation on ESG in Technology, demonstrating
-              collaboration, research, and communication skills to an audience
-              of students and professionals.
-            </li>
-          </ul>
-        </div>
-      </section>
     </main>
+    <footer>
+      <h5>Christabel Johnson</h5>
+      <p>Contact</p>
+      <p>christabelaiseosa@gmail.com</p>
+      <p>https://www.linkedin.com/in/christabel-johnson-0712b0255/</p>
+      <p class="copyright">© 2025 Christabel Johnson. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

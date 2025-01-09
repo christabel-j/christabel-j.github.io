@@ -23,6 +23,7 @@
   text-align: center;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -31,20 +32,25 @@
   --background-colour-2: #f9f8ff;
 }
 
-/* background image */
 body {
+  overflow-x: hidden;
+}
+
+/* old background image */
+/* body {
   background-image: url("Photoshop drafts/bg 4 site new.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-}
+} */
 
 /* NAV BAR STYLING */
 nav {
   position: sticky;
   top: 0;
   z-index: 1000;
+  width: 100%;
 }
 
 .navbar ul {
@@ -55,6 +61,7 @@ nav {
   align-items: center;
   height: 80px;
   font-size: 19px;
+  padding-right: 3%;
 }
 
 .navbar a {
@@ -73,7 +80,20 @@ nav {
   float: left;
 }
 
+nav {
+  font-family: "Outfit-Med", sans-serif;
+}
+
 /* landing page / hero section */
+.hero {
+  background-image: url("Photoshop drafts/bg 4 site new.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
 .name {
   font-family: "Outfit-SemiBold", sans-serif;
   font-size: 3.8rem;
@@ -101,41 +121,38 @@ nav {
   color: white;
 }
 
-nav {
-  font-family: "Outfit-Med", sans-serif;
-}
-
-.section-heading {
-  font-family: "Concert-One", sans-serif;
-  font-size: 42px;
-  margin-bottom: 30px;
-}
-
-.text-content {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 100;
-}
-
-h3,
-h4 {
-  font-family: "Cooper-Hewitt-Book";
-}
-
-/* profile pic */
 .profile-picture {
   margin-top: 70px;
   margin-bottom: 22px;
   width: 170px;
   height: auto;
   border-radius: 50%;
-  border: 3.2px solid #122690;
-  box-shadow: 0px 0px 20px 1px rgba(199, 184, 243, 0.75);
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.6);
+}
+/* end of landing page styles */
+
+.section-heading {
+  font-family: "Outfit-SemiBold", sans-serif;
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: var(--grey);
+}
+
+.text-content {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  color: var(--grey);
+}
+
+h3,
+h4 {
+  font-family: "Outfit-SemiBold", sans-serif;
 }
 
 .about-text {
   margin: 0 55px;
   font-size: 20px;
-  color: white;
+  color: var(--grey);
 }
 
 #about-text-2 {
@@ -167,16 +184,15 @@ h4 {
   font-size: 25px;
   font-weight: bold;
   padding-top: 10px;
-  color: white;
+  color: var(--grey);
 }
 
 .project-text-2 {
   margin-top: 11px;
-  color: white;
 }
 
-.project-text-1 {
-  color: white;
+.project-text {
+  color: var(--grey);
 }
 
 .coming-soon {
@@ -219,31 +235,26 @@ h4 {
 .education-text {
   text-align: left;
   margin: 0 150px;
-  color: white;
+  color: var(--grey);
 }
 
 .school-name,
 .experience-role-company {
   font-size: 28px;
   padding-bottom: 5px;
-  color: white;
+  color: var(--grey);
+  font-family: "Outfit-SemiBold", sans-serif;
 }
 
 .qualification,
 .experience-date {
   margin-bottom: 6px;
   font-size: 20px;
-  color: white;
+  color: var(--grey);
 }
 
 #a-levels {
   padding-bottom: 18px;
-}
-
-hr {
-  width: 50%;
-  color: #f3d9f0;
-  margin: 20px auto;
 }
 
 .school-link,
@@ -251,7 +262,7 @@ hr {
 .school-link:hover,
 .school-link:active {
   text-decoration: none;
-  color: white;
+  color: var(--grey);
 }
 
 #gcses {
@@ -261,7 +272,7 @@ hr {
 .grades-text,
 .experience--list-item {
   font-size: 18px;
-  color: white;
+  color: var(--grey);
 }
 
 /* EXPERIENCE SECTION */
@@ -273,7 +284,7 @@ hr {
 .experience-text,
 .experience-date {
   text-align: left;
-  color: white;
+  color: var(--grey);
 }
 
 .experience-title {
@@ -286,9 +297,13 @@ hr {
 
 .experience--list-item {
   padding-bottom: 10px;
-  color: white;
+  color: var(--grey);
 }
 
 .last-list-item {
   margin-bottom: 40px;
+}
+
+/* footer */
+footer {
 }
