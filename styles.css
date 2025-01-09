@@ -100,15 +100,6 @@ nav {
   font-family: "Cooper-Hewitt-Book", sans-serif;
 }
 
-.separator {
-  font-family: "Commissioner", sans-serif;
-  font-size: 1.8rem;
-  margin: 3.5rem 0;
-  padding: 10px;
-  color: #5b52a8;
-  background-color: rgba(0, 0, 0, 0.77);
-}
-
 .section-heading {
   font-family: "Concert-One", sans-serif;
   font-size: 42px;
