@@ -137,13 +137,15 @@ nav {
   font-family: "Montserrat";
 }
 
-.social-links {
+.social-links,
+.skills {
   font-size: 2.25rem;
   color: white;
   height: 20px;
 }
 
-.social-links i {
+.social-links i,
+.skills i {
   color: white;
 }
 
@@ -153,15 +155,16 @@ nav {
   margin-left: 0.75rem;
 }
 
-.social-links a i {
-  transition: transform 0.3s, color 0.3s;
-}
-
 .social-links a:hover i,
 .CV:hover,
 .material-symbols-outlined:hover {
   color: var(--purple);
   transform: scale(1.4);
+}
+
+.social-links a i,
+.skills i {
+  transition: transform 0.3s, color 0.3s;
 }
 
 /* end of landing page styles */
@@ -304,7 +307,36 @@ h4 {
   margin-bottom: 40px;
 }
 
+/*skills*/
+
+.skills {
+  min-height: 30vh;
+  position: relative;
+  background-color: var(--background-colour-2);
+}
+
+.skills-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills i {
+  color: var(--purple);
+  margin-right: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.skills i:hover {
+  transform: scale(1.4);
+  color: #af79f5;
+}
+
 /* footer */
 footer {
   font-family: "Outfit-SemiBold";
+  margin-top: 2rem;
+  position: relative;
 }
