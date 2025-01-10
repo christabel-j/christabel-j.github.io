@@ -148,14 +148,14 @@ nav {
 }
 
 .social-links,
-.skills {
+#skills {
   font-size: 2.25rem;
   color: white;
   height: 20px;
 }
 
 .social-links i,
-.skills i {
+#skills i {
   color: white;
 }
 
@@ -173,7 +173,7 @@ nav {
 }
 
 .social-links a i,
-.skills i {
+#skills i {
   transition: transform 0.3s, color 0.3s;
 }
 
@@ -330,7 +330,7 @@ h4 {
 
 /*skills*/
 
-.skills {
+#skills {
   min-height: 30vh;
   position: relative;
   background-color: var(--background-colour-2);
@@ -343,14 +343,14 @@ h4 {
   justify-content: center;
 }
 
-.skills i {
+#skills i {
   color: var(--purple);
   margin-right: 3%;
   display: flex;
   align-items: center;
 }
 
-.skills i:hover {
+#skills i:hover {
   transform: scale(1.4);
   color: #af79f5;
 }
