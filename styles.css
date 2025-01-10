@@ -210,8 +210,8 @@ h4 {
 
 .project-card {
   margin: 0 57px;
-  background-color: rgba(0, 0, 0, 0.77);
-  border-radius: 20px;
+  background-color: var(--background-colour-2);
+  border-radius: 6px;
 }
 
 .project-title {
