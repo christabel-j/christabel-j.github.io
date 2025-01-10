@@ -15,6 +15,16 @@
 }
 
 @font-face {
+  font-family: "Outfit-Bold";
+  src: url(Fonts/Outfit-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit-XtraBold";
+  src: url(Fonts/Outfit-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
   font-family: "Montserrat";
   src: url(Fonts/Montserrat-Medium.ttf) format("truetype");
 }
@@ -169,6 +179,8 @@ nav {
 
 /* end of landing page styles */
 
+/*purple underline???*/
+
 .section-heading {
   font-family: "Outfit-SemiBold", sans-serif;
   font-size: 42px;
@@ -185,6 +197,11 @@ nav {
 h3,
 h4 {
   font-family: "Outfit-SemiBold", sans-serif;
+}
+
+/*ABOUT SECTION*/
+#about {
+  background-color: var(--background-colour-2);
 }
 
 .about-text {
@@ -279,6 +296,10 @@ h4 {
 }
 
 /* EXPERIENCE SECTION */
+#experience {
+  background-color: var(--background-colour-2);
+}
+
 .experience-bar {
   padding: 10px 0;
 }
