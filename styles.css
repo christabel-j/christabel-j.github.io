@@ -65,7 +65,7 @@ nav {
 
 .navbar ul {
   list-style-type: none;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.55);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -180,12 +180,32 @@ nav {
 /* end of landing page styles */
 
 /*purple underline???*/
+.header {
+  text-align: center;
+  position: relative;
+}
+
+.underline {
+  content: "";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--purple);
+  position: absolute;
+  width: 7rem;
+  height: 0.25rem;
+  border-radius: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+}
 
 .section-heading {
   font-family: "Outfit-SemiBold", sans-serif;
   font-size: 42px;
-  margin-bottom: 30px;
+  padding-top: 2.2rem;
   color: var(--grey);
+  width: 100%;
 }
 
 .text-content {
@@ -205,14 +225,19 @@ h4 {
 }
 
 .about-text {
-  margin: 0 55px;
+  margin: 0 5rem;
   font-size: 20px;
   color: var(--grey);
+  text-align: left;
+}
+
+#about-text-1 {
+  padding-top: 2rem;
 }
 
 #about-text-2 {
   margin-top: 10px;
-  padding-bottom: 18px;
+  padding-bottom: 3.5rem;
 }
 
 /* PROJECT SECTION */
