@@ -179,7 +179,6 @@ nav {
 
 /* end of landing page styles */
 
-/*purple underline???*/
 .header {
   text-align: center;
   position: relative;
@@ -225,10 +224,11 @@ h4 {
 }
 
 .about-text {
-  margin: 0 5rem;
+  margin: 0 8rem;
   font-size: 20px;
   color: var(--grey);
   text-align: left;
+  line-height: 135%;
 }
 
 #about-text-1 {
@@ -244,8 +244,10 @@ h4 {
 .project-cards-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
 }
 
 .project-img {
@@ -325,8 +327,12 @@ h4 {
   background-color: var(--background-colour-2);
 }
 
-.experience-bar {
-  padding: 10px 0;
+#company {
+  color: black;
+}
+
+.experience-role-company:first-of-type {
+  margin-top: 3.5rem;
 }
 
 .experience-role-company,
@@ -337,7 +343,7 @@ h4 {
 }
 
 .experience-title {
-  padding-bottom: 15px;
+  padding-bottom: 8px;
 }
 
 .experience-container {
@@ -350,7 +356,7 @@ h4 {
 }
 
 .last-list-item {
-  margin-bottom: 40px;
+  padding-bottom: 5rem;
 }
 
 /*skills*/
@@ -366,6 +372,7 @@ h4 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 #skills i {
