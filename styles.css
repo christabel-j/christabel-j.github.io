@@ -262,6 +262,22 @@ h4 {
   flex-direction: column;
 }
 
+.project-info-btn {
+  background: none;
+  border: none;
+  color: var(--purple);
+  font-size: 2rem;
+  align-self: flex-end;
+  margin-bottom: 2rem;
+  padding-bottom: 10px;
+  transition: 0.2s ease;
+}
+
+.project-info-btn:hover {
+  color: #af79f5;
+  cursor: pointer;
+}
+
 .project-img {
   width: 110%;
   padding: 15px;
