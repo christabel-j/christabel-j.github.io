@@ -416,7 +416,7 @@ h4 {
   padding-bottom: 8px;
 }
 
-.experience-container {
+.all-experience-container {
   margin: 0 150px;
 }
 
@@ -429,6 +429,28 @@ h4 {
   padding-bottom: 5rem;
 }
 
+.company-logo {
+  display: inline-block;
+  width: 250px;
+}
+
+.experience-container {
+  display: flex;
+  margin-bottom: 1.8rem;
+}
+
+.company-text {
+  margin-left: 1.75rem;
+}
+
+.accenture {
+  margin-top: 0.7rem;
+}
+
+.experience--list-item::marker {
+  color: var(--purple);
+  line-height: 140%;
+}
 /*skills*/
 
 #skills {
