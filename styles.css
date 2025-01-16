@@ -351,29 +351,30 @@ h4 {
 
 .school-name,
 .experience-role-company {
-  font-size: 28px;
-  padding-bottom: 5px;
+  font-size: 1.8rem;
+  padding-bottom: 12px;
   font-family: "Outfit-SemiBold", sans-serif;
 }
 
 .qualification,
-.experience-date,
-.school-years {
-  margin-bottom: 6px;
-  font-size: 20px;
+.experience-date {
+  margin-bottom: 10px;
+  font-size: 22px;
   color: var(--grey);
+}
+
+.school-years {
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: var(--grey);
+}
+
+.qualification {
+  margin-bottom: 5px;
 }
 
 #a-levels {
   padding-bottom: 18px;
-}
-
-.school-link,
-.school-link:visited,
-.school-link:hover,
-.school-link:active {
-  text-decoration: none;
-  color: var(--grey);
 }
 
 #gcses {
@@ -407,6 +408,11 @@ h4 {
 
 #company {
   color: black;
+}
+
+#barclays-role,
+#HSBC-role {
+  margin-top: 2.5rem;
 }
 
 .experience-role-company:first-of-type {
@@ -466,7 +472,8 @@ h4 {
   color: var(--purple);
   line-height: 140%;
 }
-/*skills*/
+
+/*skills section*/
 
 #skills {
   min-height: 35vh;
