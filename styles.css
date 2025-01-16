@@ -503,8 +503,9 @@ h4 {
 }
 
 /* footer */
+
 footer {
-  font-family: "Outfit-SemiBold";
+  font-family: "Outfit-SemiBold", sans-serif;
   margin-top: 2rem;
   position: relative;
   background-image: url("images/footer background.jpg");
@@ -512,6 +513,10 @@ footer {
   background-position: center;
   background-size: cover;
   color: white;
+}
+
+#footer-name {
+  font-family: "Outfit-Med", sans-serif;
 }
 
 footer h5 {
