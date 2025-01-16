@@ -346,7 +346,6 @@ h4 {
 
 .education-text {
   text-align: left;
-  margin: 0 150px;
   color: var(--grey);
 }
 
@@ -354,12 +353,12 @@ h4 {
 .experience-role-company {
   font-size: 28px;
   padding-bottom: 5px;
-  color: var(--grey);
   font-family: "Outfit-SemiBold", sans-serif;
 }
 
 .qualification,
-.experience-date {
+.experience-date,
+.school-years {
   margin-bottom: 6px;
   font-size: 20px;
   color: var(--grey);
@@ -387,6 +386,20 @@ h4 {
   color: var(--grey);
 }
 
+.school-name,
+.qualification {
+  color: black;
+}
+
+#brampton-text,
+#AS-text {
+  margin-top: 1.5rem;
+}
+
+#bma-logo {
+  padding-top: 5px;
+}
+
 /* EXPERIENCE SECTION */
 #experience {
   background-color: var(--background-colour-2);
@@ -402,16 +415,19 @@ h4 {
 
 .experience-role-company,
 .experience-text,
-.experience-date {
+.experience-date,
+.school-text,
+.education-text {
   text-align: left;
-  color: var(--grey);
 }
 
-.experience-title {
+.experience-title,
+.education-title {
   padding-bottom: 8px;
 }
 
-.all-experience-container {
+.all-experience-container,
+.all-education-container {
   margin: 0 150px;
 }
 
@@ -424,21 +440,25 @@ h4 {
   padding-bottom: 5rem;
 }
 
-.company-logo {
+.company-logo,
+.school-logo {
   display: inline-block;
   width: 250px;
 }
 
-.experience-container {
+.experience-container,
+.school-container {
   display: flex;
   margin-bottom: 1.8rem;
 }
 
-.company-text {
+.company-text,
+.school-text {
   margin-left: 1.75rem;
 }
 
-.accenture {
+.accenture,
+#brampton {
   margin-top: 0.7rem;
 }
 
