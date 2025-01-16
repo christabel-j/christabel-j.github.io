@@ -46,15 +46,6 @@ body {
   overflow-x: hidden;
 }
 
-/* old background image */
-/* body {
-  background-image: url("Photoshop drafts/bg 4 site new.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-} */
-
 /* NAV BAR STYLING */
 nav {
   position: sticky;
@@ -349,6 +340,10 @@ h4 {
 
 /* EDUCATION SECTION */
 
+#education-title {
+  padding-top: 27px;
+}
+
 .education-text {
   text-align: left;
   margin: 0 150px;
@@ -454,7 +449,7 @@ h4 {
 /*skills*/
 
 #skills {
-  min-height: 30vh;
+  min-height: 35vh;
   position: relative;
   background-color: var(--background-colour-2);
 }
@@ -465,6 +460,7 @@ h4 {
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 #skills i {
@@ -484,4 +480,46 @@ footer {
   font-family: "Outfit-SemiBold";
   margin-top: 2rem;
   position: relative;
+  background-image: url("images/footer background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+footer h5 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.footer-underline {
+  margin-bottom: 18px;
+  color: #5b52a8;
+}
+
+footer h6 {
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+footer #footer-contact-div {
+  font-family: "Montserrat";
+  margin-bottom: 35px;
+  margin-right: 8rem;
+  margin-left: 4.5rem;
+}
+
+.footer-contact {
+  text-align: left;
+}
+
+#footer-subtitle {
+  font-family: "Montserrat" !important;
+  margin-bottom: 14px;
+}
+
+.copyright {
+  padding-bottom: 10px;
 }
