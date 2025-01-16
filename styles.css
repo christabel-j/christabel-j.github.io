@@ -506,7 +506,7 @@ h4 {
 
 footer {
   font-family: "Outfit-SemiBold", sans-serif;
-  margin-top: 2rem;
+  padding-top: 2rem;
   position: relative;
   background-image: url("images/footer background.jpg");
   background-repeat: no-repeat;
