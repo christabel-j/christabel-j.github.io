@@ -348,6 +348,54 @@ h4 {
   color: var(--grey);
 }
 
+/* PROJECT OVERLAY*/
+.project-overlay {
+  position: absolute;
+  color: var(--grey);
+  width: 100%;
+  height: 100%;
+  background: rgba(245, 245, 245, 0.8);
+  backdrop-filter: blur(5px);
+  display: none;
+}
+
+.project-overlay-content {
+  text-align: left;
+  width: 100%;
+}
+
+.project-overlay-content a,
+.project-overlay-content .exit-project-info {
+  display: block;
+  margin: 10px 0;
+  color: var(--grey);
+  text-decoration: none;
+}
+
+.project-info-link {
+  font-size: 28px;
+}
+
+/*trying to make the link underline transition*/
+/* .project-info-text a::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  height: 6px;
+  width: 0;
+  background-color: var(--purple);
+  border-radius: 50px;
+  transition:: all 0.5s ease;
+}
+
+a:hover::before {
+  width: 100%;
+} */
+
+.exit-project-info {
+  cursor: pointer;
+}
+
 /* EDUCATION SECTION */
 
 #education-title {
