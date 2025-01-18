@@ -369,6 +369,7 @@ h4 {
 
 .project-info-text {
   padding: 0;
+  margin-top: 3rem;
 }
 
 .project-overlay-content a,
@@ -404,8 +405,14 @@ h4 {
   transform: scaleX(1);
 }
 
-.exit-project-info {
+#exit {
+  color: var(--purple);
   cursor: pointer;
+  margin-right: 3px;
+}
+
+#exit:hover {
+  color: #af79f5;
 }
 
 /* EDUCATION SECTION */

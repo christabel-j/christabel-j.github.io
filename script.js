@@ -35,7 +35,7 @@ const swiper = new Swiper(".slider-wrapper", {
 
 // project overlay
 document.addEventListener("DOMContentLoaded", function () {
-  const menuButtons = document.querySelectorAll(".project-info-btn");
+  const menuButtons = document.querySelectorAll(".project-menu");
   const closeButtons = document.querySelectorAll(".exit-project-info");
   const projectOverlays = document.querySelectorAll(".project-overlay");
 
