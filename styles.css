@@ -70,6 +70,7 @@ nav {
   text-decoration: none;
   padding: 15px;
   display: block;
+  transition: 250ms ease;
 }
 
 .navbar a:hover,
@@ -111,7 +112,7 @@ nav {
 .bio {
   font-family: "Outfit-Light", sans-serif;
   font-size: 1.7rem;
-  margin-bottom: 60px;
+  margin-bottom: 3.7rem;
   color: white;
   text-shadow: 0px 0px 5px rgba(73, 18, 144, 0.6);
 }
@@ -135,18 +136,31 @@ nav {
 /* social links */
 .social-links {
   background-color: rgba(73, 18, 144, 0.2);
-  height: 48px;
-  padding-top: 8px;
-  width: 17%;
+  height: 52px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  width: 14rem;
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
 }
 
 .CV,
-.material-symbols-outlined {
+.social-links i,
+.social-links a {
   color: white;
   font-family: "Montserrat";
+  transition: color 300ms ease, transform 300ms ease;
+}
+
+#mail {
+  font-size: 2rem;
+}
+
+#cv {
+  font-size: 1.8rem;
 }
 
 #skills {
@@ -166,11 +180,11 @@ nav {
   margin-left: 0.75rem;
 }
 
-.social-links a:hover i,
+.social-links a:hover,
 .CV:hover,
-.material-symbols-outlined:hover {
+.social-links i:hover {
   color: var(--purple);
-  transform: scale(1.4);
+  transform: scale(1.25);
 }
 
 .social-links a i,
