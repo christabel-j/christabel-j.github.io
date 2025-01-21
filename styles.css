@@ -98,7 +98,17 @@ nav {
 
 #home {
   height: 100vh;
+  /* visibility: hidden;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: transform 1s, opacity 1s; */
 }
+
+/* #home.loaded {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+} */
 
 .name {
   font-family: "Outfit-Bold", sans-serif;
