@@ -92,12 +92,12 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
 }
 
 #home {
-  height: 100vh;
+  height: 100dvh;
   /* visibility: hidden;
   opacity: 0;
   transform: translateY(100px);
@@ -583,7 +583,7 @@ h4 {
 /*skills section*/
 
 #skills {
-  min-height: 35vh;
+  min-height: 35dvh;
   position: relative;
   background-color: var(--background-colour-2);
 }
