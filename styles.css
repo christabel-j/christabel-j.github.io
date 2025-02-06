@@ -42,7 +42,8 @@
   --background-colour-2: #f9f8ff;
 }
 
-body {
+body,
+html {
   overflow-x: hidden;
 }
 
@@ -92,7 +93,8 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100dvw;
+  width: 100%;
+  max-width: 100dvw;
   height: 100dvh;
 }
 
@@ -122,7 +124,7 @@ nav {
 .bio {
   font-family: "Outfit-Light", sans-serif;
   font-size: 1.7rem;
-  margin-bottom: 3.7rem;
+  margin-bottom: 3.5rem;
   color: white;
   text-shadow: 0px 0px 5px rgba(73, 18, 144, 0.6);
 }
@@ -153,10 +155,13 @@ nav {
   padding-bottom: 10px;
   padding-right: 12px;
   width: 14rem;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  /* margin: auto; */
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 2rem;
+  flex-shrink: 0;
 }
 
 .CV,
@@ -661,4 +666,109 @@ footer #footer-contact-div {
 
 .copyright {
   padding-bottom: 10px;
+}
+
+/* responsive */
+
+@media (max-width: 769px) {
+  .experience-container,
+  .school-container {
+    flex-direction: column;
+  }
+
+  .accenture-logo {
+    margin-top: 5%;
+  }
+
+  .all-experience-container,
+  .all-education-container {
+    margin: 0 2.5rem;
+  }
+
+  .company-logo,
+  .school-logo {
+    width: 185px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .name {
+    font-size: 3rem;
+  }
+
+  .bio {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .profile-picture {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: 50% 20%;
+  }
+}
+
+/* mobile l - complete*/
+@media (max-width: 426px) {
+  .name,
+  .section-heading {
+    font-size: 2.7rem;
+  }
+  .bio {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  .about-text {
+    font-size: 0.9rem;
+    margin: 0 3.8rem;
+  }
+  .project-text,
+  .experience--list-item,
+  .grades-text {
+    font-size: 0.9rem;
+  }
+
+  .all-experience-container,
+  .all-education-container {
+    margin: 0 0.5rem;
+  }
+
+  .accenture-logo {
+    margin-top: 10%;
+  }
+
+  .company-logo,
+  .school-logo {
+    width: 160px;
+  }
+}
+
+/* xs */
+@media (max-width: 376px) {
+  .name {
+    font-size: 2.2rem;
+  }
+
+  .bio {
+    font-size: 1rem;
+  }
+
+  .hero {
+    min-height: 75dvh;
+  }
+
+  .skills-icon-container i {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-contact-div {
+    margin: 0 1rem;
+    font-size: 0.5rem;
+  }
+
+  .footer-contact {
+    font-size: 1rem;
+  }
 }
