@@ -662,6 +662,7 @@ footer #footer-contact-div {
 #footer-subtitle {
   font-family: "Montserrat" !important;
   margin-bottom: 14px;
+  text-align: left;
 }
 
 .copyright {
